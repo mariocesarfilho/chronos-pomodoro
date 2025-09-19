@@ -1,10 +1,7 @@
-import styles from './Heading.module.css';
-
-
-export function Heading(props) {
+export function Heading() {
     return (
         <>
-            <h1 className={styles.heading}>{props.children}</h1>
+            <h1> Olá mundo</h1>
         </>
     );
 }
